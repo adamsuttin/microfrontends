@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build:css": "postcss src/**/*.css --base src --dir dist",
+    "build:js": "babel src -d dist --ignore \"src/**/*.spec.js\",\"src/**/*.test.js\"",
+    "build": "npm run build:js && npm run build:css",
+    "clean": "node ./tasks/clean.js",
+    "start": "npm run build && serve public -p 5100",
+    "watch": "NODE_ENV=development rollup -c -w"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "single-spa-react": "^2.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "fs-extra": "^8.0.1",
+    "postcss-cli": "^6.1.2",
+    "postcss-nested": "^4.1.2",
+    "serve": "^11.0.1"
+  }
+}

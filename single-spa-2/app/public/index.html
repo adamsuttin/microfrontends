@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Single SPA 1</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div id="app">
+    <header id="app--header"></header>
+    <main id="app--main"></main>
+    <footer id="app--footer"></footer>
+  </div>
+
+  <!-- This doesn't work because Babel is not a module loader. We need `requirejs` or `systemjs` -->
+  <script type="text/javascript" src="./app.single-spa.js"></script>
+</body>
+
+</html>

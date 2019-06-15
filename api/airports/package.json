@@ -1,0 +1,15 @@
+{
+  "name": "airports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start": "node ./start.js"
+  },
+  "author": "Adam Z<zett.adam@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.0"
+  }
+}

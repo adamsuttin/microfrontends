@@ -1,0 +1,60 @@
+.country-listing {
+  border-radius: 0.25rem;
+
+  h4 {
+    background-color: rgb(86, 86, 86);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: .5rem 0.75rem;
+  }
+
+  ol,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  ol {
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: 0 0 1rem 0;
+  }
+
+  ol > li {
+    border-color: rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  ol li a,
+  ol li span {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .code {
+    flex: 0 1 10%;
+  }
+  .name {
+    flex: 1;
+  }
+  .location {
+    flex: 0 1 25%;
+  }
+
+  .pagination {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: block;
+      padding: 0.5rem 1rem;
+    }
+  }
+}

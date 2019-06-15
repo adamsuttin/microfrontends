@@ -1,0 +1,42 @@
+{
+  "OriginAirports": [
+    {
+      "codeICAO": "SABE",
+      "codeIATA": "AEP",
+      "name": "Jorge Newbery Airfield",
+      "localName": "Aeroparque \"Jorge Newbery\""
+    },
+    {
+      "codeICAO": "SAEZ",
+      "codeIATA": "EZE",
+      "name": "Ministro Pistarini International Airport",
+      "localName": "Aeropuerto Internacional Ministro Pistarini"
+    },
+    {
+      "codeICAO": "SACO",
+      "codeIATA": "COR",
+      "name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+      "localName": "Aeropuerto Internacional de Cordoba \"Ingeniero Aeronáutico Ambrosio L.V. Taravella\""
+    }
+  ],
+  "DestinationAirports": [
+    {
+      "codeICAO": "SABE",
+      "codeIATA": "AEP",
+      "name": "Jorge Newbery Airfield",
+      "localName": "Aeroparque \"Jorge Newbery\""
+    },
+    {
+      "codeICAO": "SAEZ",
+      "codeIATA": "EZE",
+      "name": "Ministro Pistarini International Airport",
+      "localName": "Aeropuerto Internacional Ministro Pistarini"
+    },
+    {
+      "codeICAO": "SACO",
+      "codeIATA": "COR",
+      "name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+      "localName": "Aeropuerto Internacional de Cordoba \"Ingeniero Aeronáutico Ambrosio L.V. Taravella\""
+    }
+  ]
+}

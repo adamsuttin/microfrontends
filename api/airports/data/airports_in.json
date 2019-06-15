@@ -1,0 +1,42 @@
+{
+  "OriginAirports": [
+    {
+      "codeICAO": "VIDP",
+      "codeIATA": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "localName": "Indira Gandhi International Airport"
+    },
+    {
+      "codeICAO": "VABB",
+      "codeIATA": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+      "localName": "Chhatrapati Shivaji Maharaj International Airport, Mumbai"
+    },
+    {
+      "codeICAO": "BLR",
+      "codeIATA": "VOBL",
+      "name": "Kempegowda International Airport",
+      "localName": "Kempegowda International Airport"
+    }
+  ],
+  "DestinationAirports": [
+    {
+      "codeICAO": "VIDP",
+      "codeIATA": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "localName": "Indira Gandhi International Airport"
+    },
+    {
+      "codeICAO": "VABB",
+      "codeIATA": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+      "localName": "Chhatrapati Shivaji Maharaj International Airport, Mumbai"
+    },
+    {
+      "codeICAO": "BLR",
+      "codeIATA": "VOBL",
+      "name": "Kempegowda International Airport",
+      "localName": "Kempegowda International Airport"
+    }
+  ]
+}
