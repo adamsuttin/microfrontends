@@ -21,7 +21,3 @@ Our service should be running locally and listening on port `3002`.
 Let's open Postman and see if it returns correct response. **(Remember to add countryCode like `ar`, `pl` or `us` as a URL parameter)**
 
 ![alt Postman GET Request/Response](Postman-GET-RequestResponse.png)
-
-<style>
-  img {border: 1px solid rgb(0,0,0)}
-</style>

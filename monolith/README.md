@@ -37,7 +37,3 @@ If you focus on the Network tab, you will see that we loaded the whole applicati
 If you click on JS bundle we produced, `app.[hash].js` you might notice that it contains all the plumbing from `parcel-bundler` required to serve our app plus all of our application dependencies and finally all its modules transpiled into about 1.2MB of ECMA5 code!
 
 One positive aspect of this setup is that if users navigate to other screens, like Countries or Airports, they won't incur the penalty of loading another JS/CSS bundles. They, of course, have to load our entire application up front. Depending on the size of an application, this might be desirable or detrimental.
-
-<style>
-  img {border: 1px solid rgb(0,0,0)}
-</style>
