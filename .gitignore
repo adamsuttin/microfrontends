@@ -1,0 +1,14 @@
+node_modules/
+dist/
+
+.vscode
+
+*.swp
+*.swo
+*.pyc
+
+*.log*
+*~
+
+.DS_STORE
+._*
