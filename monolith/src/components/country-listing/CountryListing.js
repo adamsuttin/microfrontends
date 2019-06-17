@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './country-listing.css'
 
-export const CountryList = ({
+const CountryList = ({
   basename = '/countries',
   data = [],
   countryCode = '',
@@ -32,6 +32,9 @@ export const CountryList = ({
   )
 }
 
+CountryList.displayName = 'CountryList'
+
+
 const CountryListing = ({
   data = {
     OriginCountries: [],
@@ -57,5 +60,7 @@ const CountryListing = ({
     </section>
   )
 }
+
+CountryListing.displayName = 'CountryListing'
 
 export default CountryListing

@@ -28,7 +28,9 @@ export const AirportList = ({
   )
 }
 
-export const AirportListing = ({
+AirportList.displayName = 'AirportList'
+
+const AirportListing = ({
   data = [],
   countryCode = ''
 }) => {
@@ -53,3 +55,7 @@ export const AirportListing = ({
     </section>
   )
 }
+
+AirportListing.displayName = 'AirportListing'
+
+export default AirportListing

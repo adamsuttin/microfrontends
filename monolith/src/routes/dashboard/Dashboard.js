@@ -22,4 +22,6 @@ const Dashboard = () => {
   )
 }
 
+Dashboard.displayName = 'Dashboard'
+
 export default withRouter(Dashboard)

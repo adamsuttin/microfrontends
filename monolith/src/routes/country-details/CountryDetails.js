@@ -28,4 +28,6 @@ const CountryDetails = () => {
   )
 }
 
+CountryDetails.displayName = 'CountryDetails'
+
 export default CountryDetails

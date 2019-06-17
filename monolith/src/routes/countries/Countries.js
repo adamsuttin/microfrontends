@@ -54,6 +54,8 @@ const Countries = ({
   )
 }
 
+Countries.displayName = 'Countries'
+
 const mapStateToProps = (state, props) => ({
   error: getError(state),
   results: getResults(state),

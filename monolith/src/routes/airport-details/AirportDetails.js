@@ -27,4 +27,6 @@ const AirportDetails = () => {
   )
 }
 
+AirportDetails.displayName = 'AirportDetails'
+
 export default AirportDetails

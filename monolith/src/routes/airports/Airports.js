@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 
-import { AirportListing } from '../../components/airport-listing/AirportListing'
+import AirportListing from '../../components/airport-listing/AirportListing'
 
 import fetchAirports from '../../actions/fetchAirports'
 
@@ -59,6 +59,8 @@ const Airports = ({
     </section>
   )
 }
+
+Airports.defaultName = 'Airports'
 
 const mapStateToProps = (state, props) => ({
   error: getError(state),

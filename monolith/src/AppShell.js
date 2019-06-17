@@ -39,4 +39,6 @@ const AppShell = () => (
   </Provider>
 )
 
+AppShell.displayName = 'AppShell'
+
 export default AppShell

@@ -11,4 +11,6 @@ const NoRouteMatch = () => (
   </section>
 )
 
+NoRouteMatch.displayName = 'NoRouteMatch'
+
 export default NoRouteMatch
