@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "scripts": {
-    "start": "serve ./assets/ -p 4321"
-  },
-  "devDependencies": {
-    "serve": "^11.0.1"
-  }
-}
