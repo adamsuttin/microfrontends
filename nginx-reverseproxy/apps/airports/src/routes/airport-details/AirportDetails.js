@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from 'react'
 
+import './airport-details.css'
+
 const AirportDetails = () => {
 
   useLayoutEffect(() => {

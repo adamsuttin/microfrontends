@@ -3,10 +3,9 @@ import React from 'react'
 import './header.css'
 
 const NavigationMenu = ({
-  data = [],
-  ...rest
+  data = []
 }) => (
-  <ul {...rest}>
+  <ul>
   { data.map(entry => (
     <li key={ entry[1].label.toLowerCase()}>
       <a href={ entry[0]} className={ `${entry.active ? 'active' : '' }` }>{ entry[1].label }</a>
@@ -23,5 +22,7 @@ const Header = ({
     <NavigationMenu data={ navigation } />
   </nav>
 )
+
+Header.displayName = 'Header'
 
 export default Header

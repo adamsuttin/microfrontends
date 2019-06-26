@@ -1,51 +1,7 @@
 .screen--airports {
-  .spark-panel--card {
-    margin-bottom: 1rem;
-    .spark-panel__header {
-      border-bottom: 1px solid rgb(204, 204, 204);
+  .screen-header {
+    h2 {
+      color: red;
     }
-  }
-  .spark-panel--card:hover {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.95);
-    border-color: rgb(156, 156, 156);
-  }
-}
-
-.airport-filters {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  width: 100%;
-
-  input {
-    border: 1px solid rgb(172, 0, 0);
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-
-  button {
-    background: rgb(172, 0, 0);
-    border: 1px solid rgb(172, 0, 0);
-    border-radius: 0 0.25rem 0.25rem 0;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-weight: 600;
-    text-shadow: 0 0 1px rgb(0, 0, 0);
-    text-transform: uppercase;
-    width: 10rem;
-  }
-
-  input,
-  button {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    padding: 0.25rem 1rem;
-  }
-
-  input:focus,
-  button:focus {
-    outline: 0;
   }
 }

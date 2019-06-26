@@ -11,7 +11,7 @@ const bearer = `Bearer ${localStorage.getItem('apiToken')}`
 export default countryCode => dispatch => {
   const _countryCode = countryCode ? countryCode : 'us'
   dispatch(fetchAirportsInit(_countryCode))
-  return fetch(`${API_AIRPORTS_URL}/${_countryCode}`)
+  return fetch(`${API_AIRPORTS_URL}${_countryCode}`)
     .then(
       response => response.json(),
       error => dispatch(fetchAirportsFailure(error))

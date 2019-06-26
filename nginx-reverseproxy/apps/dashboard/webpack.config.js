@@ -1,15 +1,13 @@
-const merge = require('webpack-merge');
-const common = require('./webpack.common.js');
+const path = require('path')
 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const TerserJSPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const WebpackAssetsManifest = require('webpack-assets-manifest');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = merge(common, {
+module.exports = {
   devtool: 'source-map',
+  entry: './src/index.js',
   externals: {
     react: 'React',
     'react-dom': 'ReactDOM'
@@ -19,33 +17,37 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader'
+        ],
+      },
+      {
+        test: /\.js$/,
+        use: {
+          loader: 'babel-loader'
+        }
       }
     ]
   },
   optimization: {
     // minimizer: [
-    //   new TerserJSPlugin({}),
     //   new OptimizeCSSAssetsPlugin({})
     // ],
-    minimize: false,
-    runtimeChunk: false,
-    splitChunks: {
-      cacheGroups: {
-        default: false,
-      },
-    },
+    minimize: false
+  },
+  output: {
+    filename: 'dashboard.js',
+    path: path.resolve(__dirname, 'dist')
   },
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css'
     }),
-    new WebpackAssetsManifest({
-      output: 'asset-manifest.json'
-    }),
     new HtmlWebpackPlugin({
       template: 'public/index.html'
     }),
-  ]
-});
+  ],
+  target: 'web'
+};
