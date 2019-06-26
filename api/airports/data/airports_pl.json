@@ -1,0 +1,42 @@
+{
+  "OriginAirports": [
+    {
+      "codeICAO": "EPWA",
+      "codeIATA": "WAW",
+      "name": "Warsaw Chopin Airport",
+      "localName": "Lotnisko Chopina Warszawa"
+    },
+    {
+      "codeICAO": "EPKK",
+      "codeIATA": "KRK",
+      "name": "Kraków John Paul II International Airport",
+      "localName": "Kraków Airport im. Jana Pawła II"
+    },
+    {
+      "codeICAO": "EPGD",
+      "codeIATA": "GDN",
+      "name": "Gdańsk Lech Wałęsa Airport",
+      "localName": "Port Lotniczy Gdańsk im. Lecha Wałęsy"
+    }
+  ],
+  "DestinationAirports": [
+    {
+      "codeICAO": "EPWA",
+      "codeIATA": "WAW",
+      "name": "Warsaw Chopin Airport",
+      "localName": "Lotnisko Chopina Warszawa"
+    },
+    {
+      "codeICAO": "EPKK",
+      "codeIATA": "KRK",
+      "name": "Kraków John Paul II International Airport",
+      "localName": "Kraków Airport im. Jana Pawła II"
+    },
+    {
+      "codeICAO": "EPGD",
+      "codeIATA": "GDN",
+      "name": "Gdańsk Lech Wałęsa Airport",
+      "localName": "Port Lotniczy Gdańsk im. Lecha Wałęsy"
+    }
+  ]
+}

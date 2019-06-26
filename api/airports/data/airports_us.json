@@ -1,0 +1,48 @@
+{
+  "OriginAirports": [
+    {
+      "codeICAO": "KATL",
+      "codeIATA": "ATL",
+      "name": "Hartsfield–Jackson Atlanta International Airport",
+      "localName": "Hartsfield–Jackson Atlanta International Airport"
+    },
+    {
+      "codeICAO": "",
+      "codeIATA": "LAX",
+      "name": "Los Angeles International Airport",
+      "localName": "Los Angeles International Airport"
+    },
+    {
+      "codeICAO": "KORD",
+      "codeIATA": "ORD",
+      "name": "O'Hare International Airport",
+      "localName": "O'Hare International Airport"
+    },
+    {
+      "codeICAO": "KDFW",
+      "codeIATA": "DFW",
+      "name": "Dallas/Fort Worth International Airport",
+      "localName": "Dallas/Fort Worth International Airport"
+    }
+  ],
+  "DestinationAirports": [
+    {
+      "codeICAO": "KDEN",
+      "codeIATA": "DEN",
+      "name": "Denver International Airport",
+      "localName": "Denver International Airport"
+    },
+    {
+      "codeICAO": "KJFK",
+      "codeIATA": "JFK",
+      "name": "John F. Kennedy International Airport",
+      "localName": "John F. Kennedy International Airport"
+    },
+    {
+      "codeICAO": "KSFO",
+      "codeIATA": "SFO",
+      "name": "San Francisco International Airport",
+      "localName": "San Francisco International Airport"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#app--header {
+  background:yellow;
+  border-bottom: 1px solid gold;
+  margin: 0;
+  padding: 0;
+}
+
+#app--main {
+  flex: 1;
+}
+
+#app--footer {
+  background: lightslategray;
+  border-top: 1px solid darkslategray;
+  color: white;
+  flex: 0 1 5%;
+  padding: 2rem;
+  p {
+    margin: 0 0 1rem 0;
+  }
+}
